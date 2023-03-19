@@ -35,9 +35,6 @@
 <span id="1">
 <p>ls: List files and directories in the current directory
  ls can be use with different options
- Example:
-    
-    ls -a
   <ul>
     <li>-a : Lists all files including hidden files </li>
     <li>-A : Lists all files including hidden files but excludes the(current directory) and .. (parent directory) directories</li>
@@ -57,11 +54,19 @@
     <li>--color : Enables colorized output to distinguish between file types and permissions</li>
     <li>--group-directories-first : Lists directories before files</li>
   </ul>
-  we can also use combination of options
+  we can also use combination of options with ls command
 
 </span> 
 </li>
-<li> <span id="2">cd</span> </li>
+<li> <span id="2">cd: Change directory</span> 
+<ul>
+ <li>cd [Dirctoryname] :Into Directory.we can use <strong>cd dir1/dir2 </strong> to get in child directory</li
+ <li>cd .: get out of directory.<strong> cd ../..  </strong> to get out of child directory</li>
+ <li>cd - : This option changes the current directory to the previous directory you were in</li>
+ <li>cd ~ : This option changes the current directory to your home directory.</li>
+ <li>cd / : This option changes the current directory to the root directory.</li>
+</ul>
+</li>
 <li> <span id="3">pwd</span> </li>
 </ol>
 

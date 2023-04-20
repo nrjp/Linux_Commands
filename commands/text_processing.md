@@ -4,7 +4,7 @@
 
 |1|[grep](#1) |[nano](#2)|[cat](#3) | [vi](#7)|
 |-|-----------|----------|----------|-------|
-|2|[sort](#4) |[head](#5)|[tail](#6)|
+|2|[sort](#4) |[head](#5)|[tail](#6)|[less](#7)|
 
 
 
@@ -60,4 +60,11 @@ head -n 5 file.txt
 
 ```
 tail -n 5 file.txt
+```
+
+<span id="7">
+<p>less:&nbsp command is used to view the contents of a file on Linux, one page at a time..</p>
+
+```
+less my_file.txt
 ```

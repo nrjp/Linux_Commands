@@ -25,9 +25,9 @@ nano filename.txt
 cat file.txt
 ```
 <ul>
- <li>Ctrl-O to save changes to the file you're currently editing</li>
- <li>Press Ctrl-X to exit </li>
- </ul>
+    <li>Ctrl-O to save changes to the file you're currently editing</li>
+    <li>Press Ctrl-X to exit </li>
+</ul>
 
 <span id="3">
 <p>vi:&nbsp </p>
@@ -35,6 +35,11 @@ cat file.txt
 ``` 
 vi file.txt
 ```
+<ul>
+    <li>i - insert mode</li>
+    <li>(esc) + :q! - exit </li>
+    <li>(esc) + :wq! - save and exit</li>
+</ul>
 
 <span id="4">
 <p>sort:&nbsp Sort lines of text</p>
